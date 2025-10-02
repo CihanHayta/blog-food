@@ -59,7 +59,7 @@ body{
 .hero{
     width: 1440px;
     height: 100%;
-    background-image: url("/html-odev/projeler/blog-Home/assets/images/banner.png");
+    background-image: url("/assets/images/banner.png");
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -190,7 +190,7 @@ body{
 }
 
 .email-input{
-    background-image: url("/html-odev/projeler/blog-Home/assets/images/input-img.png");
+    background-image: url("/assets/images/input-img.png");
     display: flex;
     flex-direction: column;
     align-items: center;
