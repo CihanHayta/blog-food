@@ -1,0 +1,375 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    color: black !important ; 
+}
+
+body{
+    background-color: white;
+}
+
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.header-section{
+    margin-inline: auto;
+    width: 1110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-block:24px ;
+    height: 88px;
+}
+
+.header-section ul {
+    display: flex;
+    gap: 24px;
+}
+
+.header-section ul li{
+    list-style: none;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.person div{
+    display: flex;
+    gap: 4px;
+}
+
+.banner{
+    height: 785px;
+    margin-bottom: 64px;
+}
+
+.hero{
+    width: 1440px;
+    height: 100%;
+    background-image: url("/html-odev/projeler/blog-Home/assets/images/banner.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.banner img {
+    border-radius: 6px;
+}
+
+.banner h1{
+    font-size: 80px;
+    color: white;
+    line-height: 80px;
+    letter-spacing: -0.09px;
+        margin-bottom: 14px;
+}
+
+.banner a{
+    text-align: center;
+    width: 332px;
+    height: 64px;
+    background-color:rgba(253, 126, 20, 1) ;
+    text-decoration: none;
+    color: white;
+    padding-inline: 64px;
+    padding-block: 16px;
+    display: block;
+}
+
+.banner a span{
+    font-size: 23px;
+    line-height: 32px;
+
+}
+
+.food-variant{
+    width: 1300px;
+    height: 170px;
+    padding-inline:165px;
+    margin-bottom: 112px;
+}
+
+.food-wrapper{
+    width: 250px;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.food-wrapper img {
+    width: 135px;
+}
+
+
+.food-recipe p {
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+
+}
+
+
+
+
+
+
+
+.foods-recipes{
+    width: 1310px;
+    padding-inline: 165px;
+    margin-bottom: 80px;
+}
+
+.title {
+    font-size: 24px;
+    line-height: 34px;
+    margin-bottom:32px ;
+}
+
+.recipes-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+.recipes-wrapper img{
+    width:220px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+}
+
+.food-recipe p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: white;
+}
+.bla{
+    padding-inline: 416px;
+}
+
+.load-more{
+    width: 150px;
+    text-align: center;
+     border: 1px solid #333;
+    padding-block: 4px;
+    padding-inline: 2px;
+    border-radius: 3px;
+}
+
+.load-more a {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+.section-three{
+    width: 1310px;
+    height: 350px;
+    padding-inline: 165px;
+    margin-bottom: 120px;
+}
+
+.email-input{
+    background-image: url("/html-odev/projeler/blog-Home/assets/images/input-img.png");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+}
+
+.email-input h2{
+    color: white;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: -0.4px;
+    margin-bottom: 15px;
+}
+
+
+.section-fourth{
+      width: 1310px;
+    padding-inline: 165px;
+    margin-bottom: 120px;
+}
+
+
+.fourth-wrapper{
+    display: flex;
+    gap: 15px;
+}
+
+.fourth-text{
+    width: 450px;
+   margin-top: 82px;
+   margin-bottom: 202px;
+}
+
+.fourth-text p {
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 16px;
+
+}
+
+.fourth-text h1{
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: -0.7px;
+    margin-bottom: 32px;
+}
+
+.fourth-text a {
+    text-decoration: none;
+    color: white;
+    background-color:rgba(253, 126, 20, 1) ;
+    padding-inline: 64px;
+    padding-block: 16px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.fourth-wrapper img {
+    width: 635px;
+    border-radius: 4px;
+}
+
+
+.section-five{
+  width: 1110px;
+padding-inline: 165px;
+   padding-block: 80px;
+}
+
+.section-five h2 {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 600;
+    margin-bottom: 32px;
+    
+}
+
+
+
+.five-wrapper{
+    display: flex;
+    gap: 24px;
+    
+}
+
+.five-wrapper p {
+    font-size: 30px;
+    line-height: 37px;
+    letter-spacing: -0.35px;
+}
+
+
+.pankek img {
+    width: 475px;
+    height: 380px;
+    object-fit: cover;
+
+    border-radius: 6px;
+    margin-bottom: 16px;
+}
+
+
+.hamburger img{
+    width: 475px;
+    height: 380px;
+
+    border-radius: 6px;
+    margin-bottom: 16px;
+
+}
+
+.pankek {
+    position: relative;
+}
+
+.hamburger{
+    position: relative;
+}
+
+
+.recipes-view{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding-block: 4px;
+    padding-inline: 24px;
+}
+
+
+
+
+
+
+
+.footer-tire {
+    border-bottom: 1px solid #000;
+    display: block;
+    width: 1440px;
+}
+
+.footer-section{
+ width: 1310px;
+padding-inline: 165px;
+padding-block: 56px;
+
+}
+
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 184px;
+}
+
+.footer-top ul {
+    display: flex;
+    align-items: center;
+    gap: 54px;
+
+    list-style: none;
+}
+
+.footer-top img {
+    width: 69px;
+    height: 24px;
+}
+
+.bottomm{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
